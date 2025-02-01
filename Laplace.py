@@ -36,7 +36,7 @@ def teks1():
     \phi(x=0)=0 \\
     ''')
     st.subheader("Boundary Condition")
-    st.text("Untuk memberikan syarat ")
+    st.text("Syarat syarat ini memberikan suatu tetapan pada titik grid tertentu dan memberikan solusi yg tetap pada domain tertentu. Syarat ini dibagi menjadi dua yaitu:")
     st.markdown('''
     Untuk  :blue-background[Syarat Neumann] 
     yaitu nilai turunan pertama (gradien) dari fungsi pada batas domain atau 
