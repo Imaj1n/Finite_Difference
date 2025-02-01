@@ -6,7 +6,7 @@ from Graph import create_plot_FD,create_graph_poisson
 import Gambar 
 
 def teks1():
-    st.subheader("Persamaan Poison 📚")
+    st.title("Persamaan Poison 💡")
     st.text("Anggap sebuah Persamaan Poison memiliki bentuk")
     st.latex(r'''
     \nabla^2 \phi = 1         
@@ -85,7 +85,6 @@ def teks1():
     ''')
 
 def app():
-    st.title("Finite Difference💡")
     teks1()
     st.subheader("Solusi dan Visualisasi 🔬")
     nx = st.slider("jumlah grid pada arah x", 0, 200, 150)
