@@ -11,12 +11,10 @@ def app():
         '''
         **Finite Difference** adalah metode numerik yang digunakan untuk menghitung turunan fungsi secara diskret.
         Metode ini berguna dalam penyelesaian persamaan diferensial numerik.
-        
-        Tiga pendekatan utama:
         '''
     )
     st.subheader("Turunan Pertama 🧮")
-    st.text("Untuk turunan pertama diberikan dalam bentuk matematis sebagai berikut")
+    st.text("Untuk turunan pertama diberikan dalam 3 pendekatan matematis berikut")
     st.latex(r'''
     \text{Forward Difference}\rightarrow f'(x) = \frac{f(x+h) - f(x)}{h} \\
     \text{Backward Difference} \rightarrow f'(x) = \frac{f(x) - f(x-h)}{h} \\
