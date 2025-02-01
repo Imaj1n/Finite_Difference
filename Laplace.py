@@ -38,7 +38,17 @@ def teks1():
     st.subheader("Boundary Condition")
     st.text("Syarat syarat ini memberikan suatu tetapan pada titik grid tertentu dan memberikan solusi yg tetap pada domain tertentu. Syarat ini dibagi menjadi dua yaitu:")
     st.markdown('''
-    Untuk  :blue-background[Syarat Neumann] 
+    :blue-background[Syarat Dirichlet] 
+    yaitu penetapan solusi fungsi pada batas tertentu dengan nilai tertentu. Pada kasus persaamaan diatas
+    tetapkan nilai fungsi pada setiap pinggir kotak $L$  sama dengan nol
+    ''')
+    st.latex(r'''
+    \phi(x=0)=0\\
+    \phi(y=L)=0        
+    ''')
+    
+    st.markdown('''
+    :blue-background[Syarat Neumann] 
     yaitu nilai turunan pertama (gradien) dari fungsi pada batas domain atau 
     menetapkan nilai dari turunan fungsi pada grid tertentu. Untuk kasus persaamaan diatas
     ambil turunan pada pinggir grid sama dengan nol
