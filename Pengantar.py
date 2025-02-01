@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 
 def app():
     # Penjelasan Finite Difference
-    st.subheader("Pengantar Metode Finite Difference 🚀")
+    st.title("Finite Difference💡")
+    #st.subheader("Pengantar Metode Finite Difference 🚀")
     st.subheader("Turunan Pertama 🧮")
     st.markdown(
         '''
