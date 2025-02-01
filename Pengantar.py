@@ -7,7 +7,6 @@ def app():
     # Penjelasan Finite Difference
     st.title("Finite Difference💡")
     #st.subheader("Pengantar Metode Finite Difference 🚀")
-    st.subheader("Turunan Pertama 🧮")
     st.markdown(
         '''
         **Finite Difference** adalah metode numerik yang digunakan untuk menghitung turunan fungsi secara diskret.
@@ -16,6 +15,8 @@ def app():
         Tiga pendekatan utama:
         '''
     )
+    st.subheader("Turunan Pertama 🧮")
+    st.text("Untuk turunan pertama diberikan dalam bentuk matematis sebagai berikut")
     st.latex(r'''
     \text{Forward Difference}\rightarrow f'(x) = \frac{f(x+h) - f(x)}{h} \\
     \text{Backward Difference} \rightarrow f'(x) = \frac{f(x) - f(x-h)}{h} \\
